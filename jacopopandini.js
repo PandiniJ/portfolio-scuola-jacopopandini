@@ -48,3 +48,4 @@ window.onclick = function(event) {
     if (event.target == document.getElementById('modal')) chiudiLezione();
 
 }
+
