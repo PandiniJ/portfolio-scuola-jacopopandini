@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Triennale | Educazione Civica</title>
+    <link rel="stylesheet" href="jacopopandini.css">
+</head>
+<body>
+
+<header>
+    <h1>Archivio Educazione Civica</h1>
+    <p>Percorso formativo 2026 - 2028</p>
+</header>
+
+<div class="container">
+    <section id="civica">
+        <h2>📂 Argomenti Trattati</h2>
+        <div class="grid" id="civica-grid">
+            
+            <div class="card">
+                <div class="tag">Anno IV</div>
+                <h3>La Violenza di Genere</h3>
+                <p>Analisi del fenomeno, prevenzione e diritti umani.</p>
+                <button onclick="apriLezione('violenza')">Ripassa Argomento</button>
+            </div>
+    </section>
+</div>
+
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="chiudiLezione()">&times;</span>
+        <div id="contenuto-lezione"></div>
+    </div>
+</div>
+
+<script src="jacopopandini.js"></script>
+
+<footer>
+    <p>&copy; 2026 Portfolio Educazione Civica - Jacopo Pandini</p>
+</footer>
+</body>
+</html>
